@@ -29,3 +29,54 @@ increment and decrement in javascript
 *  y--;decrement
 --------------------------------------------------
 functions in javascript: 
+function function_name()
+{
+    statements----
+    -----
+    ----
+}
+functioncall();
+-----------------------------------------------------
+conditional statements in javascript:
+* syntax: if(condition)
+        {
+            statements-----
+        }
+        else
+        {
+            statements----;
+        }
+----------------------------------------------------
+operators and comparators in javascript is same has c++!!!
+-------------------------------------------------------
+array in javascript:
+    var array_name = name[size];
+*array_name.include(): to check wheather element present in the array_name
+* array.length: to get length of the array
+* array.push: will add element at the end  of  the array 
+* array.pop: will delete end element of the array
+
+
+
+
+
+
+var i=0;
+for(i=0;i<=100;i++)
+    {
+        if(i%3==0&&i%5==0)
+        {
+            console.log("fizzbuzz");
+}
+        else if(i%3==0)
+        {
+            console.log("fizz");
+        }
+        else if(i%5==0)
+        {
+            console.log("buzz");
+}
+        else{
+            console.log(i);
+        }
+    }
