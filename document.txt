@@ -1,3 +1,4 @@
+javascript name are camel case: where starting word is lowercase and other following words starting letter are upper case.ex:"querSelector"
 javascript is complied by interpreter;
 * javascript documentation website:mdn javascript
 * declaring variable in javascript:
@@ -55,28 +56,45 @@ array in javascript:
 * array.length: to get length of the array
 * array.push: will add element at the end  of  the array 
 * array.pop: will delete end element of the array
+---------------------------------------------------------------
+inline javascript:
+by giving onload="" attribute in an tag 
+inline javasript is diffiult to debug and not user friendly
+----------------------------------------------------------------
+internal javascript:
+    <script type ="text/javascript">
+    alert("hello!" )
+    </script>
+--------------------------------------------------------
+external file javascript:
+    add an script line in html file :
+        <script scr="index.js" charset="utf-8"></script>
+--------------------------------------------------------
+note:
+    the css file link always below the tittle
+    the javascript should be always at the bottom of the body
 
+-------------------------------------------------------------------------------------------
+-----------------------Document object model----------------
+ * properties
+ ->innerHTML.
+ ->style.
+ ->firstchild.
+ * Mehtods:
+ ->click().
+ ->appendchild().
+ ->setattribute().
+ ----------------------------------------------------------
 
+ * documnet.getElementsByTagName("")
+    it search for the particular tag name  it get back in array. u should select elements by array 
+* document.getElementsByClassName()
+    it select for the particular class name it gets back in array u should select elements by array 
+* document.getElementsByid()
+    it select for the particular id name it get back in an single thing cuz every id in html shoudl be unique!.
 
+---------------------------------------------------
+document.querySelector() ->you can select any class,id,title 
+only select one  
 
-
-
-var i=0;
-for(i=0;i<=100;i++)
-    {
-        if(i%3==0&&i%5==0)
-        {
-            console.log("fizzbuzz");
-}
-        else if(i%3==0)
-        {
-            console.log("fizz");
-        }
-        else if(i%5==0)
-        {
-            console.log("buzz");
-}
-        else{
-            console.log(i);
-        }
-    }
+document.querySelectorsAll()-> when u have same class name but wants to select every item which as same class name use this 
