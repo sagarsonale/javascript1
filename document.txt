@@ -98,3 +98,9 @@ document.querySelector() ->you can select any class,id,title
 only select one  
 
 document.querySelectorsAll()-> when u have same class name but wants to select every item which as same class name use this 
+---------------------------------------------------------------------------------------------
+creating object in javascript:
+	syntax:
+	var name_object={
+		name:..... ,subject:.....,........
+		}
